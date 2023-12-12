@@ -18,6 +18,6 @@ class ChannelLink with _$ChannelLink {
     @Deprecated(
       'As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty',
     )
-    Uri icon,
+        Uri icon,
   ) = _ChannelLink;
 }

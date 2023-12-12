@@ -17,7 +17,7 @@ final _reverseFuncName =
 final _calledFuncNameExp = RegExp(r'[$_\w]+\.([$_\w]+)\([$_\w]+,\d+\)');
 final _funcIndexExp = RegExp(r'\([$_\w]+,(\d+)\)');
 
-final class CipherManifest {
+class CipherManifest {
   final String signatureTimestamp;
   final List<CipherOperation> operations;
 

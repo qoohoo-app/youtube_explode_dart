@@ -42,9 +42,8 @@ abstract class $ChannelLinkCopyWith<$Res> {
   $Res call(
       {String title,
       Uri url,
-      @Deprecated(
-          'As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
-      Uri icon});
+      @Deprecated('As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
+          Uri icon});
 }
 
 /// @nodoc
@@ -92,9 +91,8 @@ abstract class _$$_ChannelLinkCopyWith<$Res>
   $Res call(
       {String title,
       Uri url,
-      @Deprecated(
-          'As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
-      Uri icon});
+      @Deprecated('As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
+          Uri icon});
 }
 
 /// @nodoc
@@ -135,9 +133,8 @@ class _$_ChannelLink implements _ChannelLink {
   const _$_ChannelLink(
       this.title,
       this.url,
-      @Deprecated(
-          'As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
-      this.icon);
+      @Deprecated('As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
+          this.icon);
 
   /// Link title.
   @override
@@ -183,9 +180,8 @@ abstract class _ChannelLink implements ChannelLink {
   const factory _ChannelLink(
       final String title,
       final Uri url,
-      @Deprecated(
-          'As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
-      final Uri icon) = _$_ChannelLink;
+      @Deprecated('As of at least 26-08-2023 YT no longer provides icons for links, so this URI is always empty')
+          final Uri icon) = _$_ChannelLink;
 
   @override
 

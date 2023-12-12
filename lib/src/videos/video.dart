@@ -58,6 +58,7 @@ class Video with _$Video {
     /// Returns true if this is a live stream.
     //ignore: avoid_positional_boolean_parameters
     bool isLive, [
+
     /// Used internally.
     /// Shouldn't be used in the code.
     @internal WatchPage? watchPage,
@@ -134,6 +135,7 @@ class Video with _$Video {
     /// Returns true if this is a live stream.
     //ignore: avoid_positional_boolean_parameters
     bool isLive, [
+
     /// Used internally.
     /// Shouldn't be used in the code.
     @internal WatchPage? watchPage,
