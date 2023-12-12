@@ -13,7 +13,7 @@ environment:
   sdk: '>=2.18.0 <4.0.0'
 
 dependencies:
-  collection: ^1.18.0
+  collection: ^1.16.0
   freezed_annotation: ^2.2.0
   html: ^0.15.0
   http: ^0.13.5
