@@ -193,8 +193,8 @@ class _InitialData extends InitialData {
       }
 
       final likes = topLevelButtons
-              .elementAtOrNull(0)
-              ?.get('segmentedLikeDislikeButtonViewModel')
+              .elementAt(0)
+              .get('segmentedLikeDislikeButtonViewModel')
               ?.get('likeButtonViewModel')
               ?.get('likeButtonViewModel')
               ?.get('toggleButtonViewModel')
